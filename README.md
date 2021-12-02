@@ -1,6 +1,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fabripautasso/car-fleet-manager)
 
 # Car Fleet Manager
+Live version: https://car-fleet-manager.herokuapp.com/api-docs/
 
 ## Assumptions
 * Car fleets are owned by one user
