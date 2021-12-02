@@ -1,0 +1,7 @@
+{
+  "name": "car-fleet-manager",
+  "description": "Car fleet manager API",
+  "repository": "https://github.com/fabripautasso/car-fleet-manager",
+  "logo": "",
+  "keywords": ["tsoa","node", "express", "static", "typescript", "inversify"]
+}

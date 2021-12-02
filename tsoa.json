@@ -1,0 +1,39 @@
+{
+  "entryFile": "./src/controllers/index.ts",
+  "noImplicitAdditionalProperties": "silently-remove-extras",
+  "spec": {
+    "specMerging": "recursive",
+    "outputDirectory": "./build/swagger",
+    "spec": {
+      "securityDefinitions": {
+        "jwt": {
+          "type": "apiKey",
+          "in": "header",
+          "name": "x-access-token"
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Auth",
+      "description": "Authentication operations"
+    },
+    {
+      "name": "Fleet",
+      "description": "Operations about fleets"
+    },
+    {
+      "name": "Car",
+      "description": "Operations about cars"
+    }
+  ]
+  ,
+  "routes": {
+    "routesDir": "./build",
+    "basePath": "/service/",
+    "authenticationModule": "./src/auth.ts",
+    "middleware": "express",
+    "iocModule": "./src/ioc"
+  }
+}
