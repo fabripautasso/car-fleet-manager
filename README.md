@@ -15,6 +15,8 @@ The following insertion endpoints were not developed:
 * POST /fleet was not developed. To add new fleets.
 * User registration endpoint
 Instead, data is being inserted by the ``SeedDb`` component on app startup
+* `car_fleet_hist` table to store history of transactions on a fleet. (Add/Remove cars)
+* Create different user roles. Fleet operator(owner), Admins, etc.
 
 Unit tests coverage is low due the task time. The test case for `addCar` was done as an example
 
