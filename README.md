@@ -41,7 +41,7 @@ Unit tests coverage is low due the task time. The test case for `addCar` was don
 ## Start application
 
  * start with dev database `yarn start:dev`
- * start with local database `yarn start:local dbname={dbname} dbusername={dbusername} dbpassword={dbpassword}`
+ * start with local database `yarn start:local`
 
 # Tech Stack
 * This project is a seed for building a **node.js** api. It includes the following features:
@@ -64,11 +64,7 @@ Unit tests coverage is low due the task time. The test case for `addCar` was don
 * **test:** `yarn test` *unit tests*
 * **build:** `yarn build` *production build*
 * **prod:** `yarn start:prod` *starts the server on production mode*
-* **local:** `yarn start:local` *lets the user sets the database via arguments*
-   * **required arguments:**
-      * **dbname=LOCAL_DBNAME**
-      * **dbusername=LOCAL_USERNAME**
-      * **dbpassword=LOCAL_PASSWORD**
+* **local:** `yarn start:local` *starts the server locally, listening to changes*
 
 ## Scaffolding
 * config `express server, DB connection, Logger, etc`
